@@ -6,7 +6,7 @@ Given I am signed in to my account on the used textbook exchange service
 
 Scenario: Search by Name (Normal Flow)
 When I enter the name of a textbook into the search bar
-And I press the "Search" button
+And I attempt to search
 Then the list of textbook listings should be filtered to show only the listings that match the entered name
 
 Scenario: Filter by Author

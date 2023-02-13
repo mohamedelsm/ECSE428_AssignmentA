@@ -5,7 +5,6 @@ Background:
 Given I am signed in to my account on the used textbook exchange service
 
 Scenario: View All Textbook Listings (Normal Flow)
-When I visit the homepage
 Then I should see a list of all available textbook listings
 And I should be able to see the title, author, condition and price of each listing
 

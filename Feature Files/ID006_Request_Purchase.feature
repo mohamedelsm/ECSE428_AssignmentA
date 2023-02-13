@@ -3,7 +3,6 @@ As a student buyer, I want to be able to request to purchase a textbook listing.
 
 Background:
 Given I am signed in to my account on the used textbook exchange service
-And I am viewing a list of textbook listings
 When I attempt to purchase a listing
 
 Scenario: Request to Purchase (Normal Flow)
