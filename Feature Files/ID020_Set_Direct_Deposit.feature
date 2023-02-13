@@ -1,5 +1,5 @@
 Feature: Direct deposit setup and update for seller
-As a seller on a textbook exchange platform, I want to be able to set up and update my direct deposit information so that I can receive payment for my textbook listings.
+As a student seller, I want to be able to set up and update my direct deposit information so that I can receive payment for my textbook listings.
 
 Background:
 Given the user is logged in to the system

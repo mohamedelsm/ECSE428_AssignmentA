@@ -1,5 +1,5 @@
 Feature: Update Profile Information
-As a user of the used textbook exchange service, I want to be able to update my account information
+As a user, I want to be able to update my account information
 
 Background:
 Given I am signed in to my account on the used textbook exchange service
