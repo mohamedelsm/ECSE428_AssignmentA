@@ -5,16 +5,14 @@ Background:
 Given the user is signed in
 
 Scenario: View all listings (Normal Flow)
-Given the user has created at least one textbook listing
-When the user navigates to the "My Listings" page
-Then they should see a list of all their textbook listings
+And the user has created at least one textbook listing
+Then they should see a list of all their textbook listings on their listings page
 
 Scenario: Filter Listings (Alternate Flow)
-When the user navigates to the "My Listings" page
-And they select the filter options (e.g. name, author, price, condition)
-Then they should only see the textbook listings that match the selected filters
+And the user has created atleast one textbook listing
+And they select a filter option (e.g. name, author, price, condition)
+Then they should only see the textbook listings that match the selected filters on their listing page
 
 Scenario: No Listings (Alternate Flow)
-Given the user has not created any textbook listings
-When the user navigates to the "My Listings" page
-Then they should see a message indicating that they have no listings
+And the user has not created any textbook listings
+Then they should see a message indicating that they have no listings when they visit their listing page
