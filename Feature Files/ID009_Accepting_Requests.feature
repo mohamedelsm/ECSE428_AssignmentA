@@ -8,14 +8,14 @@ And I am viewing the list of received purchase and trade requests
 
 Scenario: Accept Purchase Request (Normal Flow)
 When I select a purchase request for one of my textbook listings
-And I click the "Accept Request" button
+And attempt to accept it
 Then the request should be marked as accepted
 And a confirmation message should be displayed indicating that the request was accepted
 And the requester should be notified that their request was accepted
 
 Scenario: Accept Trade Request (Alternate Flow)
 When I select a trade request for one of my textbook listings
-And I click the "Accept Request" button
+And attempt to accept it
 Then the request should be marked as accepted
 And a confirmation message should be displayed indicating that the request was accepted
 And the requester should be notified that their request was accepted
@@ -32,4 +32,3 @@ And I choose the option to accept the request
 And the requester has been banned
 Then I should not be able to accept the request
 And a message should be displayed indicating that the request was from a banned user
-And the request should be removed
